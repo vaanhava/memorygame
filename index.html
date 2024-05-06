@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Memory Game</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="vaanhava | HV" >
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="sisalto">
+            <h3>Memory Game</h3>
+            <hr />
+            <p>Test your memory by flipping cards to find matching pairs. Can you conquer all three difficulty levels and achieve the highest scores?</p>
+            <button class="button easy">Easy</button>
+            <button class="button medium">Medium</button>
+            <button class="button hard">Hard</button>
+            <button class="button start" id="aloita">Start the Game</button>
+            <div class="hiddable">
+                <hr /><hr />
+                <p>Guesses: <output id="arvauksia">0</output></p>
+                <div class="hiddable" id="pelialue"></div><br />
+            </div>
+
+            <div class="divdisplay">
+                <hr /><hr />
+                <p>© vaanhava / HV 2024 (2018)</p>
+            </div>
+            
+        </div>
+        <script src="js/jquery-3.7.1.js"></script>
+        <script src="js/muistipeli.js"></script>
+        <!-- -->
+    </body>
+</html>
